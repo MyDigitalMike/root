@@ -1,0 +1,61 @@
+.Subtitulo{
+    font-size: 30px !important;
+    font-weight: bold;
+}
+.LogoPersonalizado{
+    font-size: 30px !important;
+}
+.ImagenPersona img{
+    border-radius: 10%;
+    max-width: 85% !important;
+}
+.Logos{
+    justify-content: space-around;
+}
+.Logos img{
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 10px;
+    border-radius: 10px;
+    vertical-align:middle;
+    margin: 20px;
+}
+.CentrarVideo{
+    display: flex;
+    justify-content: center;
+}
+.CentarVideo iframe{
+    display: block;
+    margin: 0 auto;
+}
+.CentarImagenesIg{
+    display: block;
+    margin: auto;
+}
+iframe{
+    display: flex;
+    width: 720px;
+    height: 450px;
+}
+
+@media screen and (max-width: 736px) {
+
+    .Logos img{
+        display: block;
+        width: 40%;
+        background-color: rgba(255, 255, 255, 0.25);
+        padding: 10px;
+        border-radius: 10px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .CentrarVideo{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    iframe{
+        width: 100%;
+    }
+
+}

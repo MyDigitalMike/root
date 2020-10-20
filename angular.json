@@ -21,12 +21,18 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/js",
+              "src/images"            
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/noscript.css",
+              "src/assets/css/mycss.css",
+              "src/assets/css/main.css"
             ],
-            "scripts": []
+            "scripts": [
+            ]
           },
           "configurations": {
             "production": {
@@ -90,7 +96,16 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery.min.js",
+              "src/assets/js/jquery.dropotron.min.js",
+              "src/assets/js/jquery.scrolly.min.js",
+              "src/assets/js/jquery.scrollex.min.js",
+              "src/assets/js/browser.min.js",
+              "src/assets/js/breakpoints.min.js",
+              "src/assets/js/util.js",
+              "src/assets/js/main.js"
+            ]
           }
         },
         "lint": {
