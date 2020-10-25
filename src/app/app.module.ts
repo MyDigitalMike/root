@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AngularFireModule } from '@angular/fire';
 import { environment } from '../environments/environment';
@@ -9,6 +11,7 @@ import { AppComponent } from './app.component';
 import { SkeletonComponent } from './layout/skeleton/skeleton.component';
 import { NavigationComponent } from './layout/navigation/navigation.component';
 import { FooterPagComponent } from './layout/footer-pag/footer-pag.component';
+import { ContactService } from './services/contact.service';
 
 
 @NgModule({
@@ -21,9 +24,12 @@ import { FooterPagComponent } from './layout/footer-pag/footer-pag.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase)
   ],
-  providers: [],
+  providers: [ContactService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

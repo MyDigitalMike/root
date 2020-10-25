@@ -1,0 +1,40 @@
+<!-- Header -->
+<div id="header">
+  <!-- Inner -->
+  <div class="inner">
+    <header>
+    </header>
+  </div>
+</div>
+<!-- Main -->
+<div class="wrapper style1">
+  <div class="contact-container">
+    <div class="left-col">
+      <img class="logo" src="https://www.indonesia.travel/content/dam/indtravelrevamp/en/logo.png" />
+    </div>
+    <div class="right-col">
+      <h1>Contactanos</h1>
+
+      <form id="contact-form" [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)">
+        <div class="form-group">
+          <label for="Fullname">Nombre Completo</label>
+          <input type="text" id="name" name="Fullname" placeholder="Tu Nombre Completo" required
+            formControlName="Fullname">
+        </div>
+        <div class="form-group">
+          <label for="Email">Correo Electronico</label>
+          <input type="email" id="email" name="Email" placeholder="Tu Correo Electronico" required
+            formControlName="Email">
+        </div>
+        <div class="form-group">
+          <label for="Comment">Mensaje</label>
+          <textarea rows="6" placeholder="Tu Mensaje Para Nosotros" id="message" name="Comment" required
+            formControlName="Comment"></textarea>
+        </div>
+        <button type="submit" id="submit" [disabled]="!FormData.valid">Enviar</button>
+      </form>
+      <div id="error"></div>
+      <div id="success-msg"></div>
+    </div>
+  </div>
+</div>
