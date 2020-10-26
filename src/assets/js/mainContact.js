@@ -47,6 +47,6 @@ function contactMain() {
   const emailIsValid = email => {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
   }
-  submitBtn.addEventListener('click', validate);
+  /*submitBtn.addEventListener('click', validate);*/
 }
 contactMain();
