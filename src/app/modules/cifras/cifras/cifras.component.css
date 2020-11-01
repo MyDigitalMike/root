@@ -1,4 +1,6 @@
-.viewDiv{
+.Genialy{
+    margin-top: 2em;
     display: flex;
+    width: 100%;
     justify-content: center;
 }

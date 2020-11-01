@@ -1,0 +1,43 @@
+.ContainerCirculos{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.TituloImagen{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+.DecripcionTitulo{
+    display: block;
+    width: 100%;
+}
+.DecripcionTitulo img{
+    width: 60%;
+}
+.DecripcionTitulo img:hover{
+    width: 70%;
+    cursor: pointer;
+}
+.DecripcionTitulo p{
+    text-align: center;
+}
+
+.DecripcionTitulo img, P:hover{
+    color: #ef8376;
+    border-bottom-color: transparent;
+}
+.SubTitulos{
+    display: flex;
+    justify-content: center;
+}
+.NegrillaText{
+    font-weight: bold !important;
+    font-size: 25px;
+}
+.NegrillaText:hover{
+    color: #000;
+    border-bottom-color: solid;
+}

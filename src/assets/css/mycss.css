@@ -7,7 +7,7 @@
 }
 .ImagenPersona img{
     border-radius: 10%;
-    max-width: 85% !important;
+    max-width: 100% !important;
 }
 .Logos{
     justify-content: space-around;

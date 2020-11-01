@@ -23,7 +23,7 @@
               "src/favicon.ico",
               "src/assets",
               "src/assets/js",
-              "src/images"            
+              "src/images"
             ],
             "styles": [
               "src/styles.css",
@@ -40,6 +40,7 @@
               "src/assets/js/breakpoints.min.js",
               "src/assets/js/util.js",
               "src/assets/js/mainContact.js",
+              "src/assets/js/genialy.js",
               "src/assets/js/main.js"
             ]
           },
@@ -105,9 +106,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [
-              
-            ]
+            "scripts": []
           }
         },
         "lint": {
@@ -136,6 +135,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "tmsproject"
+    }
+  },
+  "defaultProject": "tmsproject",
+  "cli": {
+    "analytics": "0fa7b4a6-098e-41fa-ac9a-3a33859645d8"
+  }
 }

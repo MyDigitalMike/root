@@ -29,6 +29,14 @@ const routes: Routes = [
         loadChildren:()=> import('./modules/contacto/contacto.module').then( (m) => m.ContactoModule)
       },
       {
+        path:'SanRoqueCifras',
+        loadChildren:()=> import('./modules/cifras/cifras.module').then( (m) => m.CifrasModule)
+      },
+      {
+        path:'ComunicacionC',
+        loadChildren:()=> import('./modules/comunicacion-comunidad/comunicacion-comunidad.module').then( (m) => m.ComunicacionComunidadModule)
+      },
+      {
         path:'',
         loadChildren:()=> import('./modules/inicio/inicio.module').then( (m) => m.InicioModule)
       },
