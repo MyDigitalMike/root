@@ -1,61 +1,86 @@
-.Subtitulo{
-    font-size: 30px !important;
-    font-weight: bold;
+.Subtitulo {
+  font-size: 30px !important;
+  font-weight: bold;
 }
-.LogoPersonalizado{
-    font-size: 30px !important;
+
+.LogoPersonalizado {
+  font-size: 30px !important;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  border: none 0px #000000;
+  -moz-border-radius-topleft: 15px;
+  -moz-border-radius-topright: 15px;
+  -moz-border-radius-bottomleft: 15px;
+  -moz-border-radius-bottomright: 15px;
+  -webkit-border-top-left-radius: 15px;
+  -webkit-border-top-right-radius: 15px;
+  -webkit-border-bottom-left-radius: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
-.ImagenPersona img{
-    border-radius: 10%;
-    max-width: 100% !important;
+
+.ImagenPersona img {
+  border-radius: 10%;
+  max-width: 100% !important;
 }
-.Logos{
-    justify-content: space-around;
+
+.Logos {
+  justify-content: space-around;
 }
-.Logos img{
-    width: 20%;
-    background-color: rgba(255, 255, 255, 0.25);
-    padding: 10px;
-    border-radius: 10px;
-    vertical-align:middle;
-    margin: 20px;
+
+.Logos img {
+  width: 20%;
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 10px;
+  border-radius: 10px;
+  vertical-align: middle;
+  margin: 20px;
 }
-.CentrarVideo{
-    display: flex;
-    justify-content: center;
+
+.CentrarVideo {
+  display: flex;
+  justify-content: center;
 }
-.CentarVideo iframe{
-    display: block;
-    margin: 0 auto;
+
+.CentarVideo iframe {
+  display: block;
+  margin: 0 auto;
 }
-.CentarImagenesIg{
-    display: block;
-    margin: auto;
+
+.CentarImagenesIg {
+  display: block;
+  margin: auto;
 }
-iframe{
-    display: flex;
-    width: 720px;
-    height: 450px;
+
+iframe {
+  display: flex;
+  width: 720px;
+  height: 450px;
 }
 
 @media screen and (max-width: 736px) {
 
-    .Logos img{
-        display: block;
-        width: 40%;
-        background-color: rgba(255, 255, 255, 0.25);
-        padding: 10px;
-        border-radius: 10px;
-        margin: 0 auto;
-        margin-top: 10px;
-    }
-    .CentrarVideo{
-        display: flex;
-        width: 100%;
-        justify-content: center;
-    }
-    iframe{
-        width: 100%;
-    }
+  .Logos img {
+    display: block;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .CentrarVideo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  iframe {
+    width: 100%;
+  }
 
 }

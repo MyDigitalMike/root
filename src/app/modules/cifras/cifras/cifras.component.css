@@ -1,6 +1,36 @@
-.Genialy{
-    margin-top: 2em;
-    display: flex;
-    width: 100%;
-    justify-content: center;
+.Genialy {
+  margin-top: 2em;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.container-wrapper-genially {
+  position: relative;
+  min-height: 400px;
+  max-width: 50%;
+}
+
+.loader-genially {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10%;
+}
+
+.genially-embed {
+  margin: 0px auto;
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+@media screen and (max-width: 736px) {
+    .container-wrapper-genially {
+        position: relative;
+        min-height: 400px;
+        max-width: 100%;
+      }
 }

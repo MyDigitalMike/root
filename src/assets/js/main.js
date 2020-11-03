@@ -217,4 +217,3 @@ function main() {
 
   })(jQuery);
 }
-main();

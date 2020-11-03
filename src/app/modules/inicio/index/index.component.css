@@ -41,3 +41,8 @@
     color: #000;
     border-bottom-color: solid;
 }
+@media screen and (max-width: 736px) {
+    .ContainerCirculos{
+        display: block;
+    }
+}
