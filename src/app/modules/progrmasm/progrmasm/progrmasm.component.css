@@ -1,0 +1,89 @@
+.ContainerCirculos {
+    display: block;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .TituloImagen {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+  }
+  
+  .DecripcionTitulo {
+    display: block;
+    width: 100%;
+  }
+  
+  .DecripcionTitulo img {
+    width: 20%;
+  }
+  .Centrar{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .DecripcionTitulo p {
+    text-align: center;
+  }
+  
+  .DecripcionTitulo img,
+  P:hover {
+    color: #ef8376;
+    border-bottom-color: transparent;
+  }
+  
+  .SubTitulos {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .NegrillaText {
+    font-weight: bold !important;
+    font-size: 25px;
+  }
+  
+  .NegrillaText:hover {
+    color: #000;
+    border-bottom-color: solid;
+  }
+  
+  @media screen and (max-width: 736px) {
+    .ContainerCirculos {
+      display: block;
+    }
+  }
+  
+  /*Genially*/
+  .Genialy {
+    margin: 2em 0em 2em 0em;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .container-wrapper-genially {
+    position: relative;
+    min-height: 400px;
+    max-width: 60%;
+  }
+  
+  .loader-genially {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10%;
+  }
+  
+  .genially-embed {
+    margin: 0px auto;
+    position: relative;
+    height: auto;
+    width: 100%;
+  }
+  
+  /*End Genially*/

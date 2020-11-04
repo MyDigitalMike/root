@@ -1,0 +1,8 @@
+.StoryMap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.StoryMap iframe{
+    width:80%;
+}

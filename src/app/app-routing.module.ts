@@ -9,10 +9,6 @@ const routes: Routes = [
     component: SkeletonComponent,
     children:[
       {
-        path:'Inicio',
-        loadChildren:()=> import('./modules/inicio/inicio.module').then( (m) => m.InicioModule)
-      },
-      {
         path:'NuestroEquipo',
         loadChildren:()=> import('./modules/nuestroequipo/nuestroequipo.module').then( (m) => m.NuestroEquipoModule)
       },
@@ -35,6 +31,30 @@ const routes: Routes = [
       {
         path:'ComunicacionC',
         loadChildren:()=> import('./modules/comunicacion-comunidad/comunicacion-comunidad.module').then( (m) => m.ComunicacionComunidadModule)
+      },
+      {
+        path:'AcercaDe',
+        loadChildren:()=> import('./modules/acerca/acerca.module').then( (m) => m.AcercaModule)
+      },
+      {
+        path:'Linea',
+        loadChildren:()=> import('./modules/linea-t/linea-t.module').then( (m) => m.LineaTModule)
+      },
+      {
+        path:'Programas',
+        loadChildren:()=> import('./modules/progrmasm/progrmasm.module').then( (m) => m.ProgrmasmModule)
+      },
+      {
+        path:'Entregables',
+        loadChildren:()=> import('./modules/entregablesg/entregablesg.module').then( (m) => m.EntregablesgModule)
+      },
+      {
+        path:'Implementacion',
+        loadChildren:()=> import('./modules/implementacionm/implementacionm.module').then( (m) => m.ImplementacionmModule)
+      },
+      {
+        path:'Agradecimientos',
+        loadChildren:()=> import('./modules/agradecimientosa/agradecimientosa.module').then( (m) => m.AgradecimientosaModule)
       },
       {
         path:'',

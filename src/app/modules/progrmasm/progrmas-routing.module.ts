@@ -1,15 +1,16 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { IndexComponent } from './index/index.component';
+import { ProgrmasmComponent } from './progrmasm/progrmasm.component';
 
 const routes: Routes = [
   {
     path:'',
-    component: IndexComponent
+    component: ProgrmasmComponent
   },
   {
-      path:'',
-      component: IndexComponent
+    
+    path:'Programas',
+    component: ProgrmasmComponent
   }
 ];
 
@@ -17,4 +18,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class InicioRoutingModule { }
+export class ProgramasRoutingModule { }

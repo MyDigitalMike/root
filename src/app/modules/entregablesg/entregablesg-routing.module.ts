@@ -1,15 +1,16 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { IndexComponent } from './index/index.component';
+import { EntrgablesgComponent } from './entrgablesg/entrgablesg.component';
 
 const routes: Routes = [
   {
     path:'',
-    component: IndexComponent
+    component: EntrgablesgComponent
   },
   {
-      path:'',
-      component: IndexComponent
+    
+    path:'Entregables',
+    component: EntrgablesgComponent
   }
 ];
 
@@ -17,4 +18,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class InicioRoutingModule { }
+export class EntregablesRoutingModule { }

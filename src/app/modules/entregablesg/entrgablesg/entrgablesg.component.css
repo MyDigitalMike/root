@@ -1,11 +1,6 @@
-html, body, #viewDiv {
-    padding: 0;
-    margin: 0;
-    height: 100%;
-    width: 100%;
-  }
-  .Genialy {
-    margin-top: 2em;
+/*Genially*/
+.Genialy {
+    margin: 2em 0em 2em 0em;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -14,7 +9,7 @@ html, body, #viewDiv {
   .container-wrapper-genially {
     position: relative;
     min-height: 400px;
-    max-width: 50%;
+    max-width: 60%;
   }
   
   .loader-genially {
@@ -33,3 +28,5 @@ html, body, #viewDiv {
     height: auto;
     width: 100%;
   }
+  
+  /*End Genially*/

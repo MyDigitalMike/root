@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { IndexComponent } from './index/index.component';
+import { AcercaComponent } from './acerca/acerca.component';
 
 const routes: Routes = [
   {
     path:'',
-    component: IndexComponent
+    component: AcercaComponent
   },
   {
-      path:'',
-      component: IndexComponent
+      path:'AcercaDe',
+      component: AcercaComponent
   }
 ];
 
@@ -17,4 +17,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class InicioRoutingModule { }
+export class AcercaRoutingModule { }

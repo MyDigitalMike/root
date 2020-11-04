@@ -1,15 +1,16 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { IndexComponent } from './index/index.component';
+import { LineaTComponent } from './linea-t/linea-t.component';
 
 const routes: Routes = [
   {
     path:'',
-    component: IndexComponent
+    component: LineaTComponent
   },
   {
-      path:'',
-      component: IndexComponent
+    
+    path:'Liena',
+    component: LineaTComponent
   }
 ];
 
@@ -17,4 +18,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class InicioRoutingModule { }
+export class LineaTRoutingModule { }

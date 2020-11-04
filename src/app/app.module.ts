@@ -13,6 +13,7 @@ import { NavigationComponent } from './layout/navigation/navigation.component';
 import { FooterPagComponent } from './layout/footer-pag/footer-pag.component';
 import { ContactService } from './services/contact.service';
 
+
 @NgModule({
   declarations: [
     AppComponent,
