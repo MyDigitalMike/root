@@ -33,6 +33,9 @@
     color: #ef8376;
     border-bottom-color: transparent;
   }
+  .ContainerCirculos img:hover{
+    width: 21%;
+  }
   
   .SubTitulos {
     display: flex;
@@ -52,6 +55,12 @@
   @media screen and (max-width: 736px) {
     .ContainerCirculos {
       display: block;
+    }
+    .ContainerCirculos img{
+      width: 50%;
+    }
+    .ContainerCirculos img:hover{
+      width: 51%;
     }
   }
   
