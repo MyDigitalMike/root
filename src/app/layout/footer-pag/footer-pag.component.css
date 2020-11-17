@@ -3,7 +3,7 @@
 }
 .Logos img{
     width: 20%;
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(255, 255, 255, 0);
     padding: 10px;
     border-radius: 10px;
     vertical-align:middle;
@@ -14,7 +14,7 @@
     .Logos img{
         display: block;
         width: 40%;
-        background-color: rgba(255, 255, 255, 0.25);
+        background-color: rgba(255, 255, 255, 0);
         padding: 15px;
         border-radius: 10px;
         margin: 20px auto;
